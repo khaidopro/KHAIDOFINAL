@@ -1,0 +1,25 @@
+<div class="max-w-3xl mx-auto px-4">
+  <div class="flex items-center justify-between">
+    <h1 class="flex-1 font-bold text-3xl">Shop</h1>
+
+    <div class="flex-wrap lg:flex items-center lg:space-x-3">
+      <%= link_to shops_path, class: button_class(theme: "transparent") do %>
+      All Shops
+      <% end %>
+      <%= link_to edit_shop_path(@shop), class: button_class(theme:"primary") do %>
+      Edit
+      <% end %>
+    </div>
+  </div>
+
+  <ul class="text-slate-700">
+      <li>
+        <p class="font-semibold">Name:</p>
+        <p><%= @shop.name %></p>
+      </li>
+      <li>
+        <p class="font-semibold">Type:</p>
+        <p><%= @shop.type %></p>
+      </li>
+  </ul>
+</div>
