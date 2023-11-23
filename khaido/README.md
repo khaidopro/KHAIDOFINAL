@@ -1,11 +1,11 @@
 # README
 
-## GROUP <add-group-name>
+## GROUP 1
 
-- Member 1: <add-name>
-- Member 2: <add-name>
-- Member 3: <add-name>
-- Member 4: <add-name>
+- Member 1: Do Dinh Khai    
+- Member 2: Vu Ngoc Long
+- Member 3: Le Thi Hang
+- Member 4: Nguyen Truong Giang
 
 ## Starting server
 
